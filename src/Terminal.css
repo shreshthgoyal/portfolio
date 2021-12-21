@@ -1,0 +1,11 @@
+.terminal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #5B4F8F;
+}
+
+.termi {
+  background: white;
+}

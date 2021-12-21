@@ -1,0 +1,48 @@
+export const projects = [
+    {
+        "name" : "Defi P2P Lender",
+        "desc" : "Defi Dapp built on ethereum to support peer to peer lending.",
+        "url" : "https://github.com/shreshthgoyal/DeFi-P2P-Lender",
+        "tech" : ["Web3" , "Solidity", "Truffle"],
+        "img" : "https://i.ibb.co/tz3XJbX/reva.png",
+    },
+    {
+        "name" : "Instagram Like Scrapper",
+        "desc" : "CLI tool built on selenium and python to scrape likes and posts from a particulat account.",
+        "url" : "https://github.com/shreshthgoyal/igls",
+        "tech" : ["Python" , "Selenium", "Argparse"],
+        "img" : "https://i.ibb.co/tLbg1Mf/Screenshot-from-2021-12-16-16-16-26.png",
+    },
+    {
+        "name" : "Essence",
+        "desc" : "Space Themed Fest Website.",
+        "url" : "https://github.com/shreshthgoyal/Essence-Backend",
+        "live" : "https://essencefest.netlify.app/",
+        "tech" : ["NodeJS" , "ExpressJS", "DOM"],
+        "img" : "https://lh3.googleusercontent.com/pw/AM-JKLUvjwXPoxOJAHjP3fcyp_N_YBYsJGNhHRCr_V9l68x4VceIKLC4GNpbG2ibN5OhiZrNMn98Jjj4BuB1xTAohWk-eJRrqZGoogsFYiHZOZ36_5ZTx-VGf0Zj1eg2POgLUo1HXHr5En2mxvz-Sv4VI_E=w1686-h948-no?authuser=0",
+    },
+    {
+        "name" : "Blue Note",
+        "desc" : "Note maker website with CRUD implementations.",
+        "url" : "https://github.com/shreshthgoyal/bluenote-backend",
+        "live" : "https://bluenote.netlify.app/",
+        "tech" : ["NodeJS" , "ExpressJS", "DOM"],
+        "img" : "https://i.ibb.co/Jp1Cc6b/Screenshot-from-2021-12-16-16-39-41.png",
+    },
+    {
+        "name" : "blueblog",
+        "desc" : "Blog Site built with Gatsby.",
+        "url" : "https://github.com/shreshthgoyal/blueblog",
+        "live" : "https://blueblog.netlify.app/",
+        "tech" : ["GatsbyJS", "Redux", "ReactJS", "GraphQl"],
+        "img" : "https://i.ibb.co/985MWTv/Screenshot-from-2021-12-16-16-28-56.png",
+    },
+    {
+        "name" : "blue buy",
+        "desc" : "Sample E-Commerce Webapp built with React, Redux and Stripe.",
+        "url" : "https://github.com/shreshthgoyal/blue-buy",
+        "live" : "https://bluebuy.herokuapp.com/",
+        "tech" : ["ReactJS", "Redux", "Firebase", "Stripe"],
+        "img" : "https://camo.githubusercontent.com/4b85ae40d379bc59107e335bf53004daee4480d7aa65f2caa16562ab86efd5e2/68747470733a2f2f692e6962622e636f2f4338483846317a2f652e706e67",
+    },
+]
