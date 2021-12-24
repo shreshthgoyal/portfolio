@@ -25,21 +25,21 @@ class About extends React.Component {
   
   render() {
     return (
-<div class= "body" data-aos="zoom-in">
-<div class="envelope-area" onClick={this.openEnvelope}></div>
-    <div class="envelope-back"></div>
-    <div class="envelope-message">
-      <p class="small-quote">About Me.</p>
+<div className= "body" data-aos="zoom-in">
+<div className="envelope-area" onClick={this.openEnvelope}></div>
+    <div className="envelope-back"></div>
+    <div className="envelope-message">
+      <p className="small-quote">About Me.</p>
     </div>
-    <div class="envelope-message-area" onClick={this.showMessage}></div>
-    <div class="envelope-opening"></div>
-    <div class="envelope-front"></div>
-    <div class="envelope-shadow"></div>
-    <div class="display-message">
-      <Link class="close-message" to="" onClick={this.closeMessage}><i class="fa fa-times-circle" aria-hidden="true"></i></Link>
-      <div class="quote-information">
-        <h1 class="quote"> I'm a software engineer pursuing Integrated Masters of Technology at the Indian Institute of Information Technology, Gwalior. I love solving problems and creating an impact in the community. Sometimes I also write blogs. Currently I am exploring blockchain and working on my Data Structures skills. I also compete on online coding platforms and participate in Hackathons.</h1>
-        <p class="author">&mdash;&nbsp;Shreshth Goyal</p>
+    <div className="envelope-message-area" onClick={this.showMessage}></div>
+    <div className="envelope-opening"></div>
+    <div className="envelope-front"></div>
+    <div className="envelope-shadow"></div>
+    <div className="display-message">
+      <Link className="close-message" to="" onClick={this.closeMessage}><i className="fa fa-times-circle" aria-hidden="true"></i></Link>
+      <div className="quote-information">
+        <h1 className="quote"> I'm a software engineer pursuing Integrated Masters of Technology at the Indian Institute of Information Technology, Gwalior. I love solving problems and creating an impact in the community. Sometimes I also write blogs. Currently I am exploring blockchain and working on my Data Structures skills. I also compete on online coding platforms and participate in Hackathons.</h1>
+        <p className="author">&mdash;&nbsp;Shreshth Goyal</p>
       </div>
     </div>
 </div>
