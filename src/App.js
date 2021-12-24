@@ -8,8 +8,11 @@ import Profile from './Profile';
 import Skills from './Skills';
 import About from './About';
 import './App.css';
+import React from 'react';
 
-function App() {
+class App extends React.Component {
+
+  render() {
   return (
   <Router>
     <div className="App">
@@ -26,6 +29,6 @@ function App() {
 </div>
   </Router>
   );
-  }
+  }}
 
 export default App;

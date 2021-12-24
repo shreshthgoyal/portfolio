@@ -2,10 +2,12 @@ import "./Project.css";
 import{ projects }from "./data/project";
 const Project = () => {
     return(
-<div id="movie-card-list">
+<div id="movie-card-list" data-aos="fade-in">
+  <h2 className="heading">Projects</h2>
 { 
 			projects.map(project=> (
 	<div class="movie-card" style={{backgroundImage: "url(" + `${project.img}` + ")"}}>
+    
     <div class="movie-card__overlay"></div>
     <div class="movie-card__share">
       <button class="movie-card__icon"><i class="material-icons">xe87d</i></button>
@@ -25,6 +27,7 @@ const Project = () => {
 
 			))
 }
+
 </div>
     )
 }

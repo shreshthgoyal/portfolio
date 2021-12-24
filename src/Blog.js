@@ -10,7 +10,8 @@ const Blog = () => {
         });
     }, []);
 return(
-  <div>
+  <div data-aos="fade-up">
+  <h2 className="heading">Blogs</h2>
   {articles.map((article) => (
   <div className="blog-card" key={article.id}>
   <div className="meta">
@@ -18,9 +19,10 @@ return(
     <ul className="details">
       <li className="author">{article.user.name}</li>
       <li className="date">{article.readable_publish_date}</li>
+      <br />
       <li className="tags">
         <ul>
-          {article.tag_list.map((tag)=>(<li key={tag}>| {tag} | </li>))}
+          {article.tag_list.map((tag)=>(<li key={tag}>|{tag}| </li>))}
         </ul>
       </li>
     </ul>

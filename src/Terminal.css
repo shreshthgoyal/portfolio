@@ -1,11 +1,12 @@
-.terminal{
+body {
+    overflow: hidden;
+}
+  .terminal{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: #5B4F8F;
-}
-
-.termi {
-  background: white;
+    background: #D38312; 
+background: linear-gradient(to right, #A83279, #D38312); 
+animation: gradientBG 7s ease infinite forwards;
 }

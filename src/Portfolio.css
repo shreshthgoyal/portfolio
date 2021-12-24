@@ -1,0 +1,174 @@
+.segmenter {
+    background-image: url("https://images.unsplash.com/photo-1597814570899-fff30d91a453?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2140&q=80");
+    background-size: cover;
+	align-items: center;
+}
+
+.heading{
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.zoom {
+    transition: transform 5s ease-in;
+    transform: scale(1.2);
+	filter: blur(1.5px);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.name {
+    font-size: 3em;
+    letter-spacing: 2em;
+    color: #fff;
+	text-shadow: 0px 0px 40px #fff;
+    font-weight: 500;
+    visibility: hidden;
+}
+
+@media (max-width: 900px) {
+	.name {
+		font-size: 2em;
+	}
+
+	.ani {
+		animation: blurFadeInR 3s ease-in;
+		visibility: visible;
+	}
+	
+	
+	@keyframes blurFadeInR {
+		0% {
+			opacity: 0;
+			text-shadow: 0px 0px 40px #fff;
+			font-size: 2.2em;
+	
+		}
+		50% {
+			opacity: 0.5;
+			text-shadow: 0px 0px 10px #fff;
+			font-size: 2.1em;
+	
+		}
+		100% {
+			opacity: 1;
+			text-shadow: 0px 0px 1px #fff;
+				font-size: 3em;
+	
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.name {
+		font-size: 1em;
+	}
+
+	.ani {
+		animation: blurFadeInR 3s ease-in;
+		visibility: visible;
+	}
+	
+	
+	@keyframes blurFadeInR {
+		0% {
+			opacity: 0;
+			text-shadow: 0px 0px 40px #fff;
+			font-size: 1.2em;
+	
+		}
+		50% {
+			opacity: 0.5;
+			text-shadow: 0px 0px 10px #fff;
+			font-size: 1.1em;
+	
+		}
+		100% {
+			opacity: 1;
+			text-shadow: 0px 0px 1px #fff;
+				font-size: 1em;
+	
+		}
+	}
+}
+.next{
+	color: #000;
+}
+.scroll {
+	visibility: hidden;
+}
+
+.down {
+	visibility: visible;
+}
+.ani {
+    animation: blurFadeIn 3s ease-in;
+    visibility: visible;
+}
+
+
+@keyframes blurFadeIn {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 40px #fff;
+		font-size: 3.2em;
+
+	}
+	50% {
+		opacity: 0.5;
+		text-shadow: 0px 0px 10px #fff;
+		font-size: 3em;
+
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 0px 0px 1px #fff;
+		    font-size: 3em;
+
+	}
+}
+
+.scroll-down {
+	border: 2px solid #fff;
+	border-radius: 20px;
+	bottom: 60px;
+	height: 50px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	width: 30px;
+  }
+  .scroll-down::before {
+	animation: scrollDownAnimation 2s infinite;
+	background-color: #fff;
+	border-radius: 100%;
+	content: '';
+	height: 6px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 6px;
+  }
+   
+  @keyframes scrollDownAnimation {
+	0% {
+	  opacity: 0;
+	  transform: translate(0, 0);
+	}
+	40% {
+	  opacity: 1;
+	}
+	80% {
+	  opacity: 0;
+	  transform: translate(0, 20px);
+	}
+	100% {
+	  opacity: 0;
+	}
+  }
+  

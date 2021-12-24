@@ -9,9 +9,10 @@ const bio =  ["Hello, I am Shreshth Goyal, I'm a software engineer pursuing Inte
 const skills = ['Sass', 'JavaScript', 'Jquery', 'ReactJS', 'ExpressJS', 'NodeJS', 'C++', 'C', 'Python', 'Scss', 'Git', 'MongoDB', 'Solidity', 'Truffle', 'Linux'];
 
 const WebTerminal =() => {
+
     return (
       <div className="terminal">
-             <Terminal
+<Terminal
           color='white'
           outputColor='black'
           prompt='white'  

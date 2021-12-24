@@ -12,6 +12,8 @@
   border-radius: 5px;
   overflow: hidden;
   z-index: 0;
+  color: #000;
+  font-weight: bold;
 }
 .blog-card a {
   color: inherit;
@@ -21,6 +23,7 @@
 }
 .blog-card:hover .photo {
   transform: scale(1.3) rotate(3deg);
+  filter: blur(2px);
 }
 .blog-card .meta {
   position: relative;
@@ -54,7 +57,7 @@
   color: #fff;
   padding: 10px;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 0.9em;
 }
 .blog-card .details a {
   -webkit-text-decoration: dotted underline;

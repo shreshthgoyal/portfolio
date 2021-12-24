@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300';
 
-.container {
+.container_p {
   perspective: 800px;
   /* Styling */
   color: #fff;
@@ -12,20 +12,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 18em;
-  left: 50%;
+  margin-top: 0em;
+  left: 35%;
   transform: translate(-50%, -50%);
 }
 
-.card {
+.stud{
+  color: #000;
+  margin-bottom: 3em;
+}
+
+.card_p {
   /* Styling */
   width: 600px;
   height: 350px;
-  background: #141414;
+  background: url(https://images-ext-2.discordapp.net/external/WS3FXBqDESLqOm-Cxvj30BoBwl9fGb2VCLfhNBztBb4/%3F%26targetx%3D0%26targety%3D-100%26imagewidth%3D700%26imageheight%3D700%26modelwidth%3D700%26modelheight%3D500%26backgroundcolor%3D8E8F8F%26orientation%3D0/https/render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/2/single-white-feather-on-white-background-dougal-waters.jpg);
+  background-size: cover;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  /* Card flipping effects */
+  /* card_p flipping effects */
   transform-style: preserve-3d;
   transition: 0.6s;
+  margin-bottom: 2em;
 }
 
 .side {
@@ -37,8 +44,8 @@
   transform: rotate(0deg) translateZ(1px);
 }
 
-/* Flip the card on hover */
-.container:hover .card,
+/* Flip the card_p on hover */
+.container_p:hover .card_p,
 .back {
   transform: rotateY(-180deg) translateZ(1px);
 }
@@ -46,14 +53,16 @@
 /* Front styling */
 .front {
   /* Center the name + outline (almost) */
-  line-height: 390px;
+  line-height: 350px;
   /* Height - some (because visual center is a little higher than actual center) */
   text-align: center;
   justify-content: center;
+  color: #000;
+  font-weight: 900;
 }
 
 .logo {
-  outline: 1px solid #19F6E8;
+  outline: 1px solid #333;
   display: inline-block;
   padding: 15px 40px;
   text-transform: uppercase;
@@ -66,17 +75,23 @@
 
 /* Back styling */
 .back {
-  background: #15CCC0;
+  background: url(https://images-ext-2.discordapp.net/external/WS3FXBqDESLqOm-Cxvj30BoBwl9fGb2VCLfhNBztBb4/%3F%26targetx%3D0%26targety%3D-100%26imagewidth%3D700%26imageheight%3D700%26modelwidth%3D700%26modelheight%3D500%26backgroundcolor%3D8E8F8F%26orientation%3D0/https/render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/2/single-white-feather-on-white-background-dougal-waters.jpg);
   padding: 30px;
 }
 
 .name {
   color: #3B3B3B;
-  margin-bottom: 0;
+  margin-bottom: 3em;
 }
 
 p {
   margin: 0.8em 0;
+  color: #333;
+  text-decoration: none;
+}
+
+p:hover{
+  text-decoration: none;
 }
 
 .info {
@@ -88,16 +103,16 @@ p {
 }
 
 .property {
-  color: #fff;
+  color: #000;
 }
 
 /* Make semi-responsive */
 @media (max-width: 700px) {
-  .card {
+  .card_p {
     transform: scale(0.8);
   }
 
-  .container:hover .card {
+  .container_p:hover .card_p {
     transform: scale(0.8) rotateY(-180deg) translateZ(1px);
   }
 }

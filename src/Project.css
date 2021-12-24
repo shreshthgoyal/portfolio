@@ -10,6 +10,13 @@
   overflow-x: hidden;
 }
 
+.titp {
+  transform: rotate(-90deg);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  padding-right: 20em;
+  }
+
 a {
   text-decoration: none;
 }

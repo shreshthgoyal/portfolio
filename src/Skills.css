@@ -1,13 +1,12 @@
 .section {
     display: flex;
     justify-content: center;
-    padding-left: 75px;
   }
   
   .wall {
     display: flex;
   }
-  
+
   .v-boxes {
     display: flex;
     flex-direction: column;
@@ -26,6 +25,10 @@
   
   .forth {
     margin-top: 225px;
+  }
+
+  .ico{
+    color: black
   }
   
   .box {
@@ -72,7 +75,7 @@
     z-index: 1;
     width: 100px;
     height: 100px;
-    background-color: #dedede;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9g6vckA8yKanBD9bLaOFXiGtHBt2_6Ymj_Q&usqp=CAU);
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -98,7 +101,7 @@
   .box-back .box-text {
     text-align: center;
     font-size: 12px;
-    color: #636363;
+    font-weight: 900;
     -webkit-transform: rotate(-135deg);
     -ms-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -108,15 +111,12 @@
   
   .box-back {
     z-index: 0;
-    background-image: linear-gradient(#fff, #efefef);
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9g6vckA8yKanBD9bLaOFXiGtHBt2_6Ymj_Q&usqp=CAU);
   }
   
   .cpp {
-    max-height: 40px;
+    max-height: 90px;
     align-items: center;
-    -webkit-filter: grayscale(100%) saturate(0);
-    filter: grayscale(100%) saturate(0);
-    opacity: 0.5;
   }
   
   .tooltip {
